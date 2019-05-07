@@ -5,5 +5,5 @@ var e,t=arguments[3],n=Object.assign||function(e){for(var t=1;t<arguments.length
 },{}],"630i":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.simpleParallaxConfig=void 0;var e={scale:1.4,delay:0};exports.simpleParallaxConfig=e;
 },{}],"gMmU":[function(require,module,exports) {
-"use strict";var e=l(require("simple-parallax-js")),a=require("./common");function l(e){return e&&e.__esModule?e:{default:e}}function r(){document.querySelectorAll(".parallax-img").forEach(function(l){new e.default(l,a.simpleParallaxConfig)})}window.addEventListener("load",r,!1);
+"use strict";var e=n(require("simple-parallax-js")),a=require("./common");function n(e){return e&&e.__esModule?e:{default:e}}function l(){document.querySelectorAll(".parallax-img").forEach(function(n){new e.default(n,a.simpleParallaxConfig)});var n=$("nav.navbar"),l=$("#home").height();$(window).scroll(function(){$(window).scrollTop()>l?n.addClass("fixed-nav"):n.removeClass("fixed-nav")})}window.addEventListener("load",l,!1);
 },{"simple-parallax-js":"tOor","./common":"630i"}]},{},["gMmU"], null)
